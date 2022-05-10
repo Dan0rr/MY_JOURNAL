@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Gloria+Hallelujah&family=Grape+Nuts&family=Shadows+Into+Light&display=swap" rel="stylesheet"> 
+    <title>Selfie App</title>
+</head>
+<body>
+    <img id='monsterPNG' src="./images/003-monster-hand-drawn-toy.png">
+    <img id='devilPNG' src="./images/007-monster.png">
+    <img id='squigglePNG' src="./images/001-squiggle.png" >
+    <img id="lovelyPNG" src="./images/002-lovely.png">
+    <img id='hikingPNG' src="./images/010-hiking.png">
+    <img id='surprisedPNG' src="./images/009-surprised.png">
+    <img id="arrowUpPNG" src="./images/004-up-arrow.png">
+    <img id='skullPNG' src="./images/008-skull.png">
+
+    <main>
+        <div id="title">
+            <h1>Daily Journal</h1>
+        </div>
+        <p id="todayDate"></p>
+        <a href="/index.html" id="EPL"><mark>Current Entry</mark></a>
+        <a href="/logs/index.html" id="PPL"><mark>Previous Entry</mark></a>
+        
+        <div id="videoContainer">
+            <video id="video" autoplay></video>
+        </div>
+        <div class="switchContainer">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <canvas id="canvas"></canvas>
+        <textarea placeholder="How are you feeling?" id="userInput"></textarea>
+        <button id="textSubmitBttn">
+            <mark>Log that $%!*</mark>
+        </button> 
+
+    </main> 
+    <script src="sketch.js"></script>
+    <footer>
+        <p>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </p>
+        <p>Icons made by <a href="https://www.flaticon.com/authors/ayub-irawan" title="Ayub Irawan">Ayub Irawan</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </p>
+        <p>Icons made by <a href="https://www.flaticon.com/authors/bomsymbols" title="BomSymbols">BomSymbols</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </p>
+    </footer>
+</body>
+</html>
